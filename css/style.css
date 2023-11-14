@@ -16,6 +16,12 @@
    text-decoration: none;
  }
 
+ /* ICONS */
+
+ .fa-bell{
+   color: rgb(218, 153, 32);
+ }
+
  /***************
    UTILITES
  ***************/
@@ -32,10 +38,8 @@
     width: 100%;
  }
 
- .content2{
-    background-color: blue;
-    height: 100px;
-    width: 40px;
+ .no-border{
+
  }
 
  /***************
@@ -44,13 +48,43 @@
 
  /* HEADER */
 
- .header-nav-container{
-   width: 100%;
- }
-
  header{
     height: 80px;
+ } 
+
+ .logo-mobile{
+   width: 50px;
+   height: 50px;
  }
+
+ .nav-option-list-container ul{
+   display: flex;
+ }
+
+ .nav-option-list-container ul li {
+   padding: 0px 10px;
+ }
+
+ .nav-option-list-container ul li a{
+   color: grey;
+ }
+
+ #header-nav-bar{
+   border: none;
+   width: calc(100% - 30px);
+   margin-left: 5px;
+   background-color: #E5E5E5;
+ }
+
+ ::placeholder{
+   font-size: 15px;
+ }
+
+ #header-nav-bar:focus{
+   outline: none;
+   
+ }
+
 
  /* END OF HEADER */
 
@@ -89,6 +123,8 @@
     overflow-y: auto;
  }
 
+ /* MAIN CONTENT HEADER */
+
  /* END OF MAIN CONTENT */
 
  /* END OF MAIN */
@@ -109,6 +145,13 @@
     background-color: #F8F9FA;
  }
 
+ .bg-white{
+   background-color: #Fff;
+}
+
+.bg-light-grey{
+   background-color: #E5E5E5;
+}
 
 /***************
   MEDIA QUERIES

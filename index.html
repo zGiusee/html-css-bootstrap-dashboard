@@ -19,17 +19,33 @@
     <!--
     HEADER
     -->
-    <header class="d-flex align-items-center">
-        <div class="header-nav-container bg-f8f9fa">
-            <div class="row">
-                <div class="col-2">
-                    <div class="content-h"></div>
+    <header class="d-flex bg-f8f9fa align-items-center">
+        <div class="container-fluid bg-white">
+            <div class="row align-items-center">
+                <div class="col-2 col-sm-1">
+                    <div class="logo-container">
+                        <img src="./img/mobile-logo.png" class="logo-mobile" alt="">
+                    </div>
                 </div>
-                <div class="col-8">
-                    <div class="content-h"></div>
+                <div class="col-8 col-sm-10 col-lg-9">
+                    <nav class="my-navbar bg-light-grey rounded ">
+                        <div class="container p-2">
+                            <form action="#">
+                                <span class="header-navbar-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="search" name="header-nav-bar" placeholder="Prova a cercare: Lezioni di Laravel" id="header-nav-bar">
+                            </form>
+                        </div>
+                    </nav>
                 </div>
-                <div class="col-2">
-                    <div class="content-h"></div>
+                <div class="col-2 col-sm-1 col-lg-2">
+                    <div class="nav-option-list-container">
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-none d-lg-inline-block"><a href=""><i class="fa-solid fa-lg fa-bars"></i></a></li>
+                            <li class="d-none d-lg-inline-block"><a href=""><i class="fa-solid fa-lg fa-circle-question"></i></a></li>
+                            <li class="d-none d-lg-inline-block"></i><a href=""><i class="fa-solid fa-lg fa-ellipsis-vertical"></i></a></li>
+                            <li><a href=""><i class="fa-solid fa-lg fa-bell"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -91,7 +107,7 @@
 
 
           <!-- MAIN CONTENT -->
-          <div class="main-content-container">
+          <div class="main-content-container ">
 
             <div class="main-content-header bg-skyblue">
                 <div class="container-fluid">
