@@ -44,6 +44,10 @@
 
  /* HEADER */
 
+ .header-nav-container{
+   width: 100%;
+ }
+
  header{
     height: 80px;
  }
@@ -58,7 +62,7 @@
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   width: 80px;
+   width: 70px;
    height: calc(100vh - 80px);
    background-image: url(../img/sidebar-bg.png);
    
@@ -80,7 +84,7 @@
 
  .main-content-container{
     height: calc(100vh - 80px);
-    width: calc(100vw - 80px);
+    width: calc(100vw - 70px);
     background-color: #fff;
     overflow-y: auto;
  }
