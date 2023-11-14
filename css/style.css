@@ -22,6 +22,18 @@
     width: 100%;
  }
 
+ .content{
+    background-color: red;
+    height: 400px;
+    width: 100%;
+ }
+
+ .content2{
+    background-color: blue;
+    height: 100px;
+    width: 40px;
+ }
+
  /***************
    SITE SECTION
  ***************/
@@ -29,10 +41,38 @@
  /* HEADER */
 
  header{
-    height: 75px;
+    height: 80px;
  }
 
  /* END OF HEADER */
+
+ /* MAIN */
+
+ /* SIDEBAR */
+
+ /* END OF SIDEBAR */
+
+ .sidebar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80px;
+    height: calc(100vh - 80px);
+    
+ }
+
+ /* MAIN CONTENT */
+
+ .main-content-container{
+    height: calc(100vh - 80px);
+    width: calc(100vw - 80px);
+    background-color: #fff;
+    overflow-y: auto;
+ }
+
+ /* END OF MAIN CONTENT */
+
+ /* END OF MAIN */
  /***************
    MEDIA QUERIES
  ***************/
@@ -45,6 +85,11 @@
     background-color: #051E34;
  }
 
+ .bg-skyblue{
+    background-color: #1B72E8;
+ }
+
  .bg-f8f9fa{
     background-color: #F8F9FA;
  }
+
