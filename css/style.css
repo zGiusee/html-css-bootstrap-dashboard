@@ -30,6 +30,7 @@
    border-radius: 20px;
    font-size: 13px;
  }
+ 
  /***************
    UTILITES
  ***************/
@@ -44,10 +45,6 @@
     background-color: red;
     height: 400px;
     width: 100%;
- }
-
- .no-border{
-
  }
 
  /***************
