@@ -16,10 +16,35 @@
    UTILITES
  ***************/
 
+ .content-h{
+    background-color: red;
+    height: 50px;
+    width: 100%;
+ }
+
  /***************
    SITE SECTION
  ***************/
 
+ /* HEADER */
+
+ header{
+    height: 75px;
+ }
+
+ /* END OF HEADER */
  /***************
    MEDIA QUERIES
  ***************/
+
+  /**************
+    COLORS
+ ***************/
+
+ .bg-dark-blue{
+    background-color: #051E34;
+ }
+
+ .bg-f8f9fa{
+    background-color: #F8F9FA;
+ }
