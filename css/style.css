@@ -22,6 +22,14 @@
    color: rgb(218, 153, 32);
  }
 
+ /* BADGE */
+
+ .my-badge{
+   padding: 4px 10px;
+   color: white;
+   border-radius: 20px;
+   font-size: 13px;
+ }
  /***************
    UTILITES
  ***************/
@@ -99,7 +107,6 @@
    width: 70px;
    height: calc(100vh - 80px);
    background-image: url(../img/sidebar-bg.png);
-   
 }
 
  .sidebar-list-container ul li a{
@@ -139,6 +146,10 @@
 
  .bg-skyblue{
     background-color: #1B72E8;
+ }
+
+ .bg-blue{
+   background-color: #165BBA;
  }
 
  .bg-f8f9fa{
