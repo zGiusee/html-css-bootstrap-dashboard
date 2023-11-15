@@ -363,13 +363,13 @@
 
 
     <!-- RIGH OFFCANVAS -->
-    <div class="offcanvas offcanvas-end" style="width: 576px;" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas offcanvas-end" style="width: 768px;" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <div class="form">
+            <form>
                 <div class="container-fluid">
                     <div class="row">
 
@@ -404,38 +404,73 @@
                         </div>
                         <!-- END OF SURNAME AND PASSWORD -->
 
+                        <!-- ADRESS -->
                         <div class="col-12">
-
+                            <div class="mb-3">
+                                <label for="adress" class="form-label">Indirizzo</label>
+                                <input type="text" class="form-control" id="adress" aria-describedby="AdressHelp">
+                            </div>
                         </div>
+                        <!-- END OF ADRESS -->
 
+                        <!-- CITY, STATE AND CAP -->
                         <div class="col-6">
-
+                            <div class="mb-3">
+                                <label for="city" class="form-label">Città</label>
+                                <input type="text" class="form-control" id="city" aria-describedby="CityHelp">
+                            </div>
                         </div>
 
                         <div class="col-4">
-
+                            <div>
+                                <label for="stato" class="form-label">Stato</label>
+                                <div class="input-group mb-3">
+                                    <select class="form-select" id="stato">
+                                      <option selected>Scegli...</option>
+                                      <option value="1">One</option>
+                                      <option value="2">Two</option>
+                                      <option value="3">Three</option>
+                                    </select>
+                                  </div>                              
+                            </div>
                         </div>
 
                         <div class="col-2">
+                            <div class="mb-3">
+                                <label for="cap" class="form-label">CAP</label>
+                                <input type="text" class="form-control" id="cap" aria-describedby="CapHelp">
+                            </div>
+                        </div>
+                        <!-- END OF CITY, STATE AND CAP -->
 
+                        <!-- PHOTO -->
+                        <div class="col-12">
+                            <label for="photo" class="form-label">Foto</label>
+                            <div class="input-group">
+                                <input type="file" class="form-control" id="photo" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                            </div>
+                        </div>
+                        <!-- END OF PHOTO -->
+
+                        <!-- CHECK VERIFY AND SUBMIT BUTTON  -->
+                        <div class="col-12">
+                            <div class="mt-4">
+                                <input type="checkbox" id="accept-students">
+                                <label for="accept-students"><span class="sm-font-size">Seleziona per proseguire</span></label>
+                            </div>
                         </div>
 
                         <div class="col-12">
-
+                            <div class="mt-3">
+                                <button type="submit" class="btn btn-primary">Salva</button>
+                                <button type="submit" class="btn btn-warning mx-3">Svuota</button>
+                            </div>
                         </div>
-
-                        <div class="col-12">
-                            
-                        </div>
-
-                        <div class="col-12">
-                            
-                        </div>
-
+                        <!-- END OF CHECK VERIFY AND SUBMIT BUTTON  -->
 
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
       </div>
     <!-- END OF RIGH OFFCANVAS -->
