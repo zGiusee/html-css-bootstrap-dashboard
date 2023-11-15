@@ -16,6 +16,13 @@
    text-decoration: none;
  }
 
+ .sm-font-size{
+  font-size: 14px;
+ }
+
+ .t-underline{
+  text-decoration: underline;
+ }
  /* ICONS */
 
  .fa-bell{
