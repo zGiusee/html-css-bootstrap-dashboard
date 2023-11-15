@@ -195,17 +195,30 @@
   MEDIA QUERIES
 ***************/
 
+@media screen and (min-width:576px) {
+
+  .name-cell-w{
+    width: 30%;
+  }
+}
+
+@media screen and (min-width:768px) {
+
+  .name-cell-w{
+    width: 40%;
+  }
+}
+
 @media screen and (min-width:992px){
 
-   /* HEADER */
+/* HEADER */
 
- header{
-   height: 80px;
+header{
+  height: 80px;
 }
 
 /* END OF HEADER */
 
-/* MAIN */
 
 /* SIDEBAR */
 
