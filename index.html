@@ -362,17 +362,83 @@
     -->
 
 
-    <!-- RIGH CANVAS -->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <!-- RIGH OFFCANVAS -->
+    <div class="offcanvas offcanvas-end" style="width: 576px;" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          ...
+            <div class="form">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <!-- NAME AND EMAIL -->
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="name" aria-describedby="NameHelp">
+                            </div>
+
+                            <div>
+                               <label for="email" class="form-label">Email</label>
+                               <div class="input-group mb-3">
+                                 <span class="input-group-text" id="basic-addon1">@</span>
+                                 <input type="email" class="form-control" aria-label="email" aria-describedby="basic-addon1">
+                               </div>                              
+                            </div>                              
+                        </div>
+                        <!-- END OF NAME AND EMAIL -->
+
+                        <!-- SURNAME AND PASSWORD -->
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label for="surname" class="form-label">Cognome</label>
+                                <input type="text" class="form-control" id="surname" aria-describedby="SurnameHelp">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password">
+                            </div>                            
+                        </div>
+                        <!-- END OF SURNAME AND PASSWORD -->
+
+                        <div class="col-12">
+
+                        </div>
+
+                        <div class="col-6">
+
+                        </div>
+
+                        <div class="col-4">
+
+                        </div>
+
+                        <div class="col-2">
+
+                        </div>
+
+                        <div class="col-12">
+
+                        </div>
+
+                        <div class="col-12">
+                            
+                        </div>
+
+                        <div class="col-12">
+                            
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
-    <!-- END OF RIGH CANVAS -->
+    <!-- END OF RIGH OFFCANVAS -->
     
     <!-- SCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
