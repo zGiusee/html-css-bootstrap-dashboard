@@ -112,6 +112,13 @@
    padding: 10px 0px;
  }
 
+ .sidebar-list-container ul li:hover{
+  background-color: rgb(169, 169, 169,0.6);
+}
+
+.fa-signal{
+  margin-right: 5px;
+}
 
  /* END OF SIDEBAR */
 
@@ -155,6 +162,10 @@
   border: none;
   background-color: transparent;
   margin-right: 3px;
+ }
+
+ .table-btn:hover{
+  background-color: rgb(194, 193, 193);
  }
 
  /*END OF TABLE */
